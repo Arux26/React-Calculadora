@@ -1,0 +1,29 @@
+.boton-contenedor {
+  height: 83px;
+  display: flex;
+  flex: 1 1; /*para darle el ancho y distribuir el espacio entre los botones (sirve para manejar las proporciones) en este caso 1 1 es para que sea iguales*/
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer; /*el cursor se vuelve una manito cuando el cursor esta sobre el boton*/
+  user-select: none; /* hace que no se pueda seleccionar el texto con el mosue*/
+}
+
+.boton-contenedor:hover {
+  background-color: #5a01a7;
+}
+
+.operador {
+  background-color: #00471b;
+}
+
+
+.operador:hover {
+  background-color: #ff6600;
+}

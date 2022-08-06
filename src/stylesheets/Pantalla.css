@@ -1,0 +1,15 @@
+.input {
+    height: 75px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end; /*xq queremos q el texto se alinie a la derecha horizontalmente en lugar de el centro o la izquierda*/
+    align-items: center; /*xq queremos q el texto este en el centro verticalmente */
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #0a0a23;
+    color: white;
+    padding: 11px 30px 11px 11px; /*superior, derecha, inferior, izquierdo (en el sentido de las agujas del reloj)*/
+    margin: 1px solid #888;
+    box-shadow: -1px 4px 1px 1px white; /*para agregarle una sombra a la pantalla*/
+}
